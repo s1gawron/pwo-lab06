@@ -4,6 +4,12 @@ import pwo.utils.SequenceGenerator;
 
 import java.math.BigDecimal;
 
+/**
+ * Klasa abstrakcyjna przeznaczona dla generatorów ciągów<br>
+ *
+ * @author Sebastian
+ * @version 1.0.0
+ */
 abstract class Generator implements SequenceGenerator {
 
     protected int lastIndex = 0;

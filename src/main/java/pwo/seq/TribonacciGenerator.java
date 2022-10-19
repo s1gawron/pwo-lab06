@@ -2,6 +2,12 @@ package pwo.seq;
 
 import java.math.BigDecimal;
 
+/**
+ * Klasa narzędziowa obliczająca ciąg Tribonacciego<br>
+ *
+ * @author Sebastian
+ * @version 1.0.0
+ */
 public class TribonacciGenerator extends FibonacciGenerator {
 
     public TribonacciGenerator() {

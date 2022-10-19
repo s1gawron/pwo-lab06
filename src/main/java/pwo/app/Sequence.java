@@ -1,7 +1,19 @@
 package pwo.app;
 
+/**
+ * Klasa main aplikacji<br>
+ *
+ * @author Sebastian
+ * @version 1.0.0
+ */
 public class Sequence {
 
+    /**
+     * Pobiera argumenty przekazane podczas uruchamiania aplikacji.<br>
+     * A nastepnie wywołuje odpowiednie metody w zależności od ilości argumentów
+     *
+     * @param args Tablica argumentów
+     */
     public static void main(String[] args) {
         switch (args.length) {
             case 3:
